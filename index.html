@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="order_item">
+      <div class="order_location">Kano</div>
+      <div class="order_owner">Maryia Nestsiarovich</div>
+      <div class="owner_phone">+15364 6363 370</div>
+      <div class="order_cost">25,000</div>
+      <div class="order_status">Awaiting Delivery</div>
+      <div class="view_order_container">
+        <div class="view_order" onclick="goToURL(); return false;">
+          View Order
+        </div>
+      </div>
+    </div>
+    <script>
+      function goToURL() {
+        location.href = "http://google.it";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+.order_item {
+  width: 90%;
+  height: 200px;
+  background-color: #f4f4f4;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: block;
+}
+
+.order_location {
+  font-size: 25px;
+  color: rgb(10, 4, 14);
+  font-family: "Larsseit";
+  width: 100%;
+  padding-top: 10px;
+  color: #fa2d65;
+  justify-content: center;
+  display: flex;
+}
+
+.order_owner {
+  font-size: 18px;
+  color: rgb(10, 4, 14);
+  font-family: "Larsseit";
+  width: 100%;
+  color: #0c050f;
+  justify-content: center;
+  display: flex;
+}
+
+.order_cost {
+  font-size: 18px;
+  color: rgb(10, 4, 14);
+  font-family: "Larsseit";
+  width: 100%;
+  color: #0c050f;
+  margin-top: 5px;
+  justify-content: center;
+  display: flex;
+}
+
+.owner_phone {
+  font-size: 18px;
+  color: rgb(10, 4, 14);
+  font-family: "Larsseit";
+  width: 100%;
+  margin-top: 5px;
+  color: #0c050f;
+  justify-content: center;
+  display: flex;
+}
+
+.order_status {
+  font-size: 18px;
+  color: rgb(10, 4, 14);
+  font-family: "Larsseit";
+  width: 100%;
+  color: #108f50;
+  margin-top: 5px;
+  justify-content: center;
+  display: flex;
+}
+
+.view_order {
+  width: 115px;
+  height: 27px;
+  background-color: #4369a3;
+  font-size: 13px;
+  align-items: center;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+  border-radius: 5px;
+  font-family: "Larsseit";
+  cursor: pointer;
+}
+.view_order_container {
+  display: flex;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("//db.onlinewebfonts.com/t/d5bd523d9152e80458f764c62c5bb9df.eot");
+  src: url("//db.onlinewebfonts.com/t/d5bd523d9152e80458f764c62c5bb9df.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/d5bd523d9152e80458f764c62c5bb9df.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/d5bd523d9152e80458f764c62c5bb9df.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/d5bd523d9152e80458f764c62c5bb9df.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/d5bd523d9152e80458f764c62c5bb9df.svg#Larsseit")
+      format("svg");
+}
